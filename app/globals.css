@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+@theme inline {
+  --font-sans: var(--font-urbanist);
+}
 html,
 body,
 :root {
