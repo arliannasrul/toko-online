@@ -7,5 +7,6 @@ const getBanner = async (id:string): Promise<Banner> => {
 
     return res.json()
 }
+  
 
 export default getBanner;
